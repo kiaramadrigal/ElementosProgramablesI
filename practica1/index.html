@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica 1 | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../">Home</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de mi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Laboratorio de Elementos Programables 1</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Seccion TITULO de la Práctica-->
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">Arduino Básico</h1>
+
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/Kiara.jpg" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">Kiara Marlene Madrigal Alonso</div>
+                                <div class="text-muted">Ingeniería Biomédica</div>
+                            </div>
+                        <!--Aqui termina etiqueta de alumno-->
+
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: 31 de agosto de 2023</div>
+                        <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                        <a class="badge bg-primary text-decoration-none link-light" >Arduino</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+
+                    </header>
+                </div>
+            </section>
+
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+
+                    <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/PORTADA.jpeg" alt="..." /></figure>
+                                
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
+                        <p class="fs-6 mb-4">La programación se ha convertido en una habilidad necesaria en la sociedad digital ya que es una herramienta utilizada en practcamente todas las áreas, de la misma manera, en un mundo impulsado por la electrónica, la comprensión de los circuitos eléctricos es fundamental para entender las sociedades digitales. Es por ello que en esta práctica aplicamos nuestros conocimientos básicos de construcción de circuitos y programación para armar 18 circuitos diferentes utilizando leds.</p>
+                        <p class="fs-6 mb-4">Esta es la primer primer práctica realizada en el labpratorio de Elementos Programable sy se utilizó la lataforma Tinkercat.</p>
+                        
+                        <p id="intro">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
+                        <p class="fs-6 mb-4">Para poder armar un circuito en físico es necesario partir de un diagrama esquemático en el que podamos visualizar y planificar el circuito para evitar que este se queme o no funcione; a la par de esto, debemos desarrollar un código, en este caso utilizamos Arduino, plataforma de desarrollo basada en una placa electrónica de hardware libre que incorpora un microcontrolador re-programable y una serie de pines, permite permiten establecer conexiones entre el microcontrolador y los diferentes sensores y actuadores de una manera muy sencilla.  </p>
+                        <p class="fs-6 mb-4">Los diagramas y los códigos programados pudimos encontrarlos en Tinkercat.</p>
+                        
+                        <p id="materiales">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                        <p class="fs-6 mb-4">1 protoboard.</p>
+                        <p class="fs-6 mb-4">Placa Arduino</p>
+                        <p class="fs-6 mb-4">Jumpers</p>
+                        <p class="fs-6 mb-4">Resistencias 1K ohms</p>
+                        <p class="fs-6 mb-4">Resistencias 220 Oms</p>
+                        <p class="fs-6 mb-4">Botones</p>
+                        <p class="fs-6 mb-4">Leds</p>
+                        <p class="fs-6 mb-4">Display 7 segmentos</p>
+                        
+                        <p id="desarrollo">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+                        <p class="fs-6 mb-4">Para realizar los siguientes circuitos se tomaron los recursos de Tinkercat, se tomó el código y se armó el circuito. La mayoría de los circuitos son muy similares, por lo que se necesitaron los mismos componentes..</p>
+                        
+                        
+                            <p id="códigos">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación</h1>
+                            <p class="fs-6 mb-4">A continuación se presentan los 18 códigos de los circuitos realizados, estos se utilizaron para poder simular el sistema.</p>
+                           
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/P1.png" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/P1 2.png" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/P1 3.png" alt="..." /></figure>
+                            <p id="diseño">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño</h1>
+                            <p class="fs-6 mb-4">Circuitos.</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/P1 4.png" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/P1 5.png" alt="..." /></figure>
+                        
+                            <p id="construccion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
+                            <p class="fs-6 mb-4">Cada circuito se construyó siguiendo los diagramas presentados en las secciones ''simulación'' y ''diseño'''.</p>
+                            
+
+                        <p id="resultados">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+                        <p class="fs-6 mb-4">A continuación se muestran los videos de los circuitos físicos.</p>
+                        <p class="fs-6 mb-4">0_Ejemplo Blink</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video0.MP4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">1_Salida Digital HIGH</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video1.MP4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">2_Salida Digital LOW</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video2.MP4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">3_Salida Digital Delay</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video3.MP4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">4_Salida digital led</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video4.MP4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">5_Salida digital protoboard I</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video5.MP4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">6_Salida digital protoboard II</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video6.MP4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">7_Salida digital leds I</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video7.MP4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">8_Salida digital leds II</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video8.MP4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">9_Salida digital display 7 segmentos</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video9.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">10_Salida contador digital display 7 segmentos</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video10.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">11_Entrada digital boton</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video11.MP4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">12_Entrada digital boton II</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video12.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">13_Entrada digital condicionales botón</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video13.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">14_Entrada digital condicionales boton II</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video14.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">15_Entrada digital condicionales OR boton I</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video15.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">16_Entrada digital condicionales AND botones</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video16.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">17_Entrada digital contador leds</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video17.mp4" type="video/mp4">
+                        </video></p></figure>
+                       
+                        
+
+                        <p id="conclusiones">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+                        <p class="fs-6 mb-4">Aprender los principios básicos de electrónica y programación es fundamental en la era actual, donde la tecnología está presente en casi todos los aspectos de nuestras vidas. Muchas de las innovaciones tecnológicas que están transformando nuestra sociedad requieren una comprensión de la electrónica y la programación. Ya sea que quieras automatizar tu hogar, construir un robot o desarrollar una aplicación, tener conocimientos en electrónica y programación te brinda las herramientas necesarias para llevar a cabo tus proyectos personales y creativos. aprender los principios básicos de electrónica y programación te brinda una base sólida para comprender y participar en el mundo tecnológico en constante cambio. Estas habilidades son relevantes en una variedad de contextos, desde la carrera profesional hasta la resolución de problemas cotidianos.</p>
+                    
+                        
+
+                        <p id="referencias">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
+                        <p class="fs-6 mb-4">Microchip AVR® microcontroller primer: programming and interfacing, third edition (synthesis lectures on digital circuits and systems), BARRETT, Steven F. Pack Daniel J., Editorial Morgan & Claypool, 2019.</p>
+                        <p class="fs-6 mb-4">K. He, X. Zhang, S. Ren and J. Sun, "Deep Residual Learning for Image Recognition," 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Las Vegas, NV, USA, 2016, pp. 770-778, doi: 10.1109/CVPR.2016.90.</p>
+                        <p class="fs-6 mb-4">J. D. Hunter, "Matplotlib: A 2D Graphics Environment," in Computing in Science & Engineering, vol. 9, no. 3, pp. 90-95, May-June 2007, doi: 10.1109/MCSE.2007.55.</p>
+                        
+                        <p id="descargables">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Descargables -</h2>
+                        <p class="fs-6 mb-4">Descargar documento PDF: <a href="files/Documento.pdf">documento.pdf</a> </p>
+                        <p class="fs-6 mb-4">Descargar codigo Arduino: <a href="files/Ejemplo_arduino_bluetooth.ino">codigo.ino</a> </p>
+                        <p class="fs-6 mb-4">Descargar Archivo 3d .STL: <a href="files/Pieza_3D.STL">pieza.stl</a> </p>
+
+                </div>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2023</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
