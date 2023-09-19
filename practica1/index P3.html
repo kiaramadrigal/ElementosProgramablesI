@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Práctica 2 | Ibero Puebla</title>
+        <title>Práctica 3 | Ibero Puebla</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap icons-->
@@ -51,7 +51,7 @@
                     <!-- Post header-->
                     <header class="mb-4">
                         <!-- Post title-->
-                        <h1 class="fw-bolder mb-1">Arduino Básico 2</h1>
+                        <h1 class="fw-bolder mb-1">Attiny85 Digital I/O</h1>
 
                         <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
                             <img class="img-fluid rounded-circle" width="50px" src="assets/Kiara.jpg" alt="..." />
@@ -61,7 +61,7 @@
                             </div>
                         <!--Aqui termina etiqueta de alumno-->
 
-                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: 7 de septiembre de 2023</div>
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: 14 de septiembre de 2023</div>
                         <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
                         <a class="badge bg-primary text-decoration-none link-light" >Arduino</a>
                         <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
@@ -74,35 +74,36 @@
             <section>
                 <div class="container px-5">
 
-                    <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/PORTADA2.png" alt="..." /></figure>
+                    <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/PORTADA3.png" alt="..." /></figure>
                                 
                     <p id="resumen">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
-                        <p class="fs-6 mb-4">Los servomotores son componentes clave en una amplia variedad de aplicaciones industriales y de automatización, y desempeñan un papel fundamental en el control preciso de la posición, velocidad y movimiento en sistemas mecánicos y robóticos. Su aplicación es fundamental en la realización de este código, por lo que a continuación se presentarán una serie de circuitos simulados utilizando servomotores.</p>
-                        <p class="fs-6 mb-4">Esta es la segunda práctica realizada en el labpratorio de Elementos Programables y se utilizó la lataforma Tinkercat.</p>
+                        <p class="fs-6 mb-4">El ATtiny85 es un microcontrolador de bajo costo y bajo consumo de energía fabricado por Microchip Technology. Se utiliza en proyectos que van desde la automatización del hogar hasta la robótica y la electrónica portátil. Durante esta práctica utilizamos un Attiny85 Digital para elaborar diversos circui.</p>
+                        <p class="fs-6 mb-4">Esta es la tercera práctica realizada en el labpratorio de Elementos Programables y se utilizó la lataforma Tinkercat.</p>
                         
                         <p id="intro">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
-                        <p class="fs-6 mb-4"> Los servomotores son esenciales para el control de movimiento preciso y la automatización en una amplia gama de aplicaciones industriales y de ingeniería. Su capacidad para ofrecer control de alta precisión y respuesta rápida los convierte en un componente vital en la mejora de la eficiencia, la calidad y la productividad en muchas industrias.  los servomotores se pueden programar para controlar su posición, velocidad y otras características de movimiento. La programación de servomotores se realiza generalmente a través de un controlador o un microcontrolador que envía señales al servomotor para indicarle cómo debe moverse. </p>
-                        <p class="fs-6 mb-4">La programación de servomotores permite una flexibilidad significativa en la automatización y el control de sistemas mecánicos y robóticos. Para hacer esto, los diagramas y los códigos programados los encontramos en Tinkercat.</p>
+                        <p class="fs-6 mb-4"> El ATtiny85 Pertenece a la familia de microcontroladores AVR de 8 bits, los cuales son adecuados para una variedad de aplicaciones donde se requiere un controlador embebido de bajo costo y bajo consumo de energía El ATtiny85 es popular entre los entusiastas de la electrónica y los diseñadores de proyectos embebidos debido a su tamaño compacto, bajo costo y capacidad para manejar una variedad de tareas. Se utiliza en proyectos que van desde la automatización del hogar hasta la robótica y la electrónica portátil. También es programable a través de una variedad de herramientas de desarrollo y lenguajes de programación, como el entorno de desarrollo integrado (IDE) de Arduino. . </p>
+                        <p class="fs-6 mb-4">Esta práctica muestra la aplicación de ATiny85 en diversos circuitos.</p>
                         
                         <p id="materiales">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
                         <p class="fs-6 mb-4">1 protoboard.</p>
                         <p class="fs-6 mb-4">Placa Arduino UNO</p>
                         <p class="fs-6 mb-4">Jumpers</p>
-                        <p class="fs-6 mb-4">2 servomotores</p>
-                        <p class="fs-6 mb-4">2 potenciómetros</p>
-                        <p class="fs-6 mb-4">1 fuente de voltaje</p>
+                        <p class="fs-6 mb-4">Leds</p>
+                        <p class="fs-6 mb-4">Botones</p>
+                        <p class="fs-6 mb-4">Attiny</p>
+                        <p class="fs-6 mb-4">Resistencias 2K Ohms</p>
                         
                         <p id="desarrollo">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
-                        <p class="fs-6 mb-4">Para realizar los siguientes circuitos se tomaron los recursos de Tinkercat, se tomó el código y se armó el circuito. La mayoría de los circuitos son muy similares, por lo que se necesitaron los mismos componentes..</p>
+                        <p class="fs-6 mb-4">Para realizar los siguientes circuitos se tomaron los recursos de Tinkercat, se colocó el código y se armó el circuito. La mayoría de los circuitos son muy similares, por lo que se necesitaron los mismos componentes en lamayor pare de los mismos.</p>
                         
                         
                             <p id="códigos">
                             <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Códigos</h1>
-                            <p class="fs-6 mb-4">A continuación se presentan los 18 códigos de los circuitos realizados, estos se utilizaron para poder simular el sistema.</p>
+                            <p class="fs-6 mb-4">A continuación se presentan los 14 códigos de los circuitos realizados, estos se utilizaron para poder simular el sistema.</p>
                            
                             <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/practica2codigos.png" alt="..." /></figure>
                             <p id="diseño">
@@ -119,52 +120,75 @@
                         <p id="resultados">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
                         <p class="fs-6 mb-4">A continuación se muestran los videos de los circuitos físicos.</p>
-                        <p class="fs-6 mb-4">Servo 1</p>
+                        <p class="fs-6 mb-4">0_Arduino UNO as ISP</p>
                         <figure class="mb-4" align="center"><video width="15%"  controls>
-                            <source src="video/P2video1.mp4" type="video/mp4">
+                            <source src="C0.mp4" type="video/mp4">
                         </video></p></figure>
-                        <p class="fs-6 mb-4">Servo 2</p>
+                        <p class="fs-6 mb-4">1_Attiny Blink</p>
                         <figure class="mb-4" align="center"><video width="15%"  controls>
-                            <source src="video/P2video2.mp4" type="video/mp4">
+                            <source src="C1.mp4" type="video/mp4">
                         </video></p></figure>
-                        <p class="fs-6 mb-4">Potenciómetro serial</p>
+                        <p class="fs-6 mb-4">2_Attiny Digital HIGH</p>
                         <figure class="mb-4" align="center"><video width="15%"  controls>
-                            <source src="video/P2video3.mp4" type="video/mp4">
+                            <source src="C2.mp4" type="video/mp4">
                         </video></p></figure>
-                        <p class="fs-6 mb-4">5 servos</p>
+                        <p class="fs-6 mb-4">3_Attiny Digital LOW</p>
                         <figure class="mb-4" align="center"><video width="15%"  controls>
-                            <source src="video/P2video5.mp4" type="video/mp4">
+                            <source src="C3.mp4" type="video/mp4">
                         </video></p></figure>
-                        <p class="fs-6 mb-4">Servos invertidos</p>
+                        <p class="fs-6 mb-4">4_Attiny Digital Delay</p>
                         <figure class="mb-4" align="center"><video width="15%"  controls>
-                            <source src="video/P2video6.mp4" type="video/mp4">
+                            <source src="C4.mp4" type="video/mp4">
                         </video></p></figure>
-                        <p class="fs-6 mb-4">Servos independientes</p>
+                        <p class="fs-6 mb-4">5_Attiny 2 LEDs Delay</p>
                         <figure class="mb-4" align="center"><video width="15%"  controls>
-                            <source src="video/P2video7.mp4" type="video/mp4">
+                            <source src="C5.mp4" type="video/mp4">
                         </video></p></figure>
-                        <p class="fs-6 mb-4">Servos independientes y leds</p>
+                        <p class="fs-6 mb-4">6_Attiny 3 LEDs Delay</p>
                         <figure class="mb-4" align="center"><video width="15%"  controls>
-                            <source src="video/P2video8.mp4" type="video/mp4">
+                            <source src="C6.mp4" type="video/mp4">
                         </video></p></figure>
-                        <p class="fs-6 mb-4">Servo fuente</p>
+                        <p class="fs-6 mb-4">7_Attiny Digital Input</p>
                         <figure class="mb-4" align="center"><video width="15%"  controls>
-                            <source src="video/P2video9.mp4" type="video/mp4">
+                            <source src="C7.mp4" type="video/mp4">
                         </video></p></figure>
+                        <p class="fs-6 mb-4">8_Attiny Digital Input IF-ELSE</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="C8.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">9_Attiny Digital Input IF variables</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="C9.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">10_Attiny Digital Input OR</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="C10.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">11_Attiny Digital Input AND</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="C11.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">12_Attiny Contador + 3 LEDs</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="C12.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">13_Attiny Contador + - 3 LEDs</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="C13.mp4" type="video/mp4">
+                        </video></p></figure>
+                        
                        
                         
 
                         <p id="conclusiones">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
-                        <p class="fs-6 mb-4">En conclusión, los servomotores, Arduino y los potenciómetros son componentes y herramientas fundamentales en la creación y control de circuitos y sistemas que implican movimientos precisos y controlados. Los servomotores proporcionan una capacidad de movimiento altamente precisa y son esenciales en aplicaciones de robótica, automatización y control de posición. Arduino, como plataforma de desarrollo electrónica de código abierto, ofrece un entorno accesible y versátil para programar y controlar servomotores y otros dispositivos, lo que facilita la creación de proyectos personalizados. Los potenciómetros, por otro lado, permiten una interfaz directa entre el usuario y el sistema. En conjunto, estos componentes desempeñan un papel fundamental en la automatización, la robótica, la mecatrónica y una amplia gama de campos de la ingeniería.</p>
+                        <p class="fs-6 mb-4">En conclusión, El ATtiny85 es popular entre los electrónicos debido a su tamaño compacto, bajo costo y capacidad para manejar una variedad de tareas, tal como lo vimos en la práctica. Se utiliza en proyectos que van desde la automatización del hogar hasta la robótica y la electrónica portátil. También es programable a través de una variedad de herramientas de desarrollo y lenguajes de programación, como el entorno de desarrollo integrado (IDE) de Arduino.</p>
                     
                         
 
                         <p id="referencias">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
-                        <p class="fs-6 mb-4">Microchip AVR® microcontroller primer: programming and interfacing, third edition (synthesis lectures on digital circuits and systems), BARRETT, Steven F. Pack Daniel J., Editorial Morgan & Claypool, 2019.</p>
-                        <p class="fs-6 mb-4">K. He, X. Zhang, S. Ren and J. Sun, "Deep Residual Learning for Image Recognition," 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Las Vegas, NV, USA, 2016, pp. 770-778, doi: 10.1109/CVPR.2016.90.</p>
-                        <p class="fs-6 mb-4">J. D. Hunter, "Matplotlib: A 2D Graphics Environment," in Computing in Science & Engineering, vol. 9, no. 3, pp. 90-95, May-June 2007, doi: 10.1109/MCSE.2007.55.</p>
+                        <p class="fs-6 mb-4">Microcontrolador ATTINY85-20PU. (2020). Retrieved September 19, 2023, from Todomicro website: https://www.todomicro.com.ar/microcontroladores/685-microcontrolador-attiny85-20pu.html#:~:text=El%20Attiny85%2C%20un%20peque%C3%B1o%20microcontrolador,entorno%20de%20escritorio%20de%20Arduino..</p>
                         
                         <p id="descargables">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Descargables -</h2>
