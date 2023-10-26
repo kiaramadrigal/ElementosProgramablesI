@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica 1 | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../">Home</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de mi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Laboratorio de Elementos Programables 1</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Seccion TITULO de la Práctica-->
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">Arduino Basico</h1>
+
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/Kiara.jpg" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">Kiara Marlene Madrigal Alonso</div>
+                                <div class="text-muted">Ingeniería Biomédica</div>
+                            </div>
+                        <!--Aqui termina etiqueta de alumno-->
+
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: 31 de agosto de 2023</div>
+                        <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                        <a class="badge bg-primary text-decoration-none link-light" >Arduino</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+
+                    </header>
+                </div>
+            </section>
+
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+
+                    <figure class="mb-4"><img class="img-fluid rounded" width="500px" src="img/PORTADA.jpeg" alt="..." /></figure>
+                                
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
+                        <p class="fs-6 mb-4">En esta práctica, se exploraron y compararon sensores de diferentes tipos: analógicos, digitales e inteligentes. El enfoque principal fue programar estos sensores, realizar pruebas sobre los mismos y analizar los resultados obtenidos.</p>
+                        <p class="fs-6 mb-4">Esta es la sexta práctica realizada en el laboatorio de Elementos Programables.</p>
+                        
+                        <p id="intro">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
+                        <p class="fs-6 mb-4">Los sensores son dispositivos diseñados para identificar y reaccionar ante diversas entradas provenientes del entorno físico. En la vida diaria, se emplea una diversidad de sensores que se categorizan según las características y propiedades de las señales que detectan. Se pueden clasificar en Analógicos, ofrecen salidas continuas y proporcionales como la temperatura o la presión.; Digitales, convierten señales a formato digital, con salidas discretas; y los Inteligentes que incorporan capacidades de procesamiento y toma de decisiones. Los sensores responden a las variaciones en las condiciones físicas modificando sus características eléctricas. En consecuencia, la mayoría de estos dispositivos requieren sistemas electrónicos para recopilar, analizar y transmitir datos relacionados con el entorno.  Estos sistemas electrónicos operan según los mismos principios que los circuitos eléctricos, por lo que es crucial tener la capacidad de regular el flujo de energía eléctrica. </p>
+                        <p class="fs-6 mb-4">En el ámbito de la medicina e investigación biomédica, se emplean diversos tipos de sensores para identificar procesos biológicos, químicos o físicos particulares, los cuales posteriormente transmiten o comunican esta información a usuarios individuales o profesionales de la salud.</p>
+                        
+                        <p id="materiales">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                        <p class="fs-6 mb-4">- 1 protoboard.</p>
+                        <p class="fs-6 mb-4">- Placa Arduino</p>
+                        <p class="fs-6 mb-4">- Jumpers</p>
+                        <p class="fs-6 mb-4">- Resistencias 1K ohms</p>
+                        <p class="fs-6 mb-4">- Resistencias 220 Oms</p>
+                        <p class="fs-6 mb-4">- Botones</p>
+                        <p class="fs-6 mb-4">- Leds</p>
+                        <p class="fs-6 mb-4">- Display 7 segmentos</p>
+                        
+                        <p id="desarrollo">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Investigación -</h2>
+                        <p class="fs-6 mb-4">Primero se realizó una investigación sobre algunos sensores analógicos, digitales e inteligentes para conocer sus características básicas.</p>
+                        
+                        
+                            <p id="códigos">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Sensores</h1>
+                            <p class="fs-6 mb-4">.</p>
+                           
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/P1.png" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/P1 2.png" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/P1 3.png" alt="..." /></figure>
+                            <p id="diseño">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño</h1>
+                            <p class="fs-6 mb-4">Circuitos.</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/P1 4.png" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/P1 5.png" alt="..." /></figure>
+                        
+    
+
+                        <p id="resultados">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+                        <p class="fs-6 mb-4">A continuación se muestran los videos de los circuitos físicos.</p>
+                        <p class="fs-6 mb-4">0_Ejemplo Blink</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video0.MP4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">1_Salida Digital HIGH</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video1.MP4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">2_Salida Digital LOW</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video2.MP4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">3_Salida Digital Delay</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video3.MP4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">4_Salida digital led</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video4.MP4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">5_Salida digital protoboard I</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video5.MP4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">6_Salida digital protoboard II</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video6.MP4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">7_Salida digital leds I</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video7.MP4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">8_Salida digital leds II</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video8.MP4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">9_Salida digital display 7 segmentos</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video9.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">10_Salida contador digital display 7 segmentos</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video10.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">11_Entrada digital boton</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video11.MP4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">12_Entrada digital boton II</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video12.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">13_Entrada digital condicionales botón</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video13.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">14_Entrada digital condicionales boton II</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video14.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">15_Entrada digital condicionales OR boton I</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video15.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">16_Entrada digital condicionales AND botones</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video16.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">17_Entrada digital contador leds</p>
+                        <figure class="mb-4" align="center"><video width="15%"  controls>
+                            <source src="video/P1Video17.mp4" type="video/mp4">
+                        </video></p></figure>
+                       
+                        
+
+                        <p id="conclusiones">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+                        <p class="fs-6 mb-4">Los sensores analógicos son ideales para aplicaciones que requieren mediciones precisas y continuas, mientras que los sensores digitales ofrecen simplicidad y eficiencia en situaciones donde la discretización es suficiente. Los sensores inteligentes demostraron ser versátiles al adaptarse a condiciones cambiantes y proporcionar información contextual valiosa. La elección del tipo de sensor dependerá de los requisitos específicos de la aplicación y de las características deseables, como la velocidad de respuesta y la capacidad de adaptación.</p>
+                        
+                            
+    
+                        <p id="referencias">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
+                        <p class="fs-6 mb-4">Instituto Nacional de Imágenes Biomédicas y Bioingeniería (2022). Sensores. NIH. Recuperado de: https://www.nibib.nih.gov/sites/default/files/2022-05/Fact-Sheet-Sensores.pdf.</p>
+                        <p class="fs-6 mb-4">SDI. (2021, June 25). Sensores. Recuperado de: SDI website: https://sdindustrial.com.mx/blog/sensores/</p>
+                            
+                        <p id="descargables">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Descargables -</h2>
+                        <p class="fs-6 mb-4">Descargar códigos <a href="files/Códigos P1//">Carpeta de códigos</a> </p>
+
+                </div>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2023</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
